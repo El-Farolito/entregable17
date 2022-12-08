@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+img{
+    width: 50%;
+    
+}
+
+.headerprincipal{
+    background-color: #EAC926;
+    padding: 5px;
+    
+}
+.baner{
+    width: 100%;
+}
+
+p{
+    font-size: 12px;
+}
+li a{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.precios{
+font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.burger-menu{
+    color: white;
+    background-color: blue;
+  margin: 0 auto;
+ margin-left: 49%;
+ width: 20px;
+  border-radius: 5px;
+  padding: 5px;
+    
+    
+}
+
+#compraencuotas{
+    font-size: 12px;
+}
+
+article{
+    display: inline-block;
+    
+}
+article:hover{
+    box-shadow: 0px 5px 10px  black ;
+    border-radius: 10px;
+    zoom: 1.2;
+}
+
+section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+img.logo{
+    width: 150px;
+}
+div.barraPrincipal{
+    display: inline;
+    text-align: justify;
+} 
+
+.detalles{
+margin-top: 20px;
+text-align: center;
+}
+
+.copi{
+    margin-top: 30px;
+    text-align: center;
+}
+.detalles i{
+    font-size: 2em;
+}
+img{
+    width: 200px;
+}
+
