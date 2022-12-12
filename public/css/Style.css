@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -48,8 +49,7 @@ font-size: 18px;
  margin-left: 49%;
  width: 20px;
   border-radius: 5px;
-  padding: 5px;
-    
+  
     
 }
 
