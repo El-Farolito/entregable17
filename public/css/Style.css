@@ -1,76 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-img{
-    width: 50%;
-    
+
+main {
+    width: 90vw;
+    margin: auto;
 }
 
-.headerprincipal{
-    background-color: #EAC926;
-    padding: 5px;
-    
-}
-.baner{
+
+.imagenesProductos {
     width: 100%;
 }
 
-p{
+.formasdepago{
+    width: 100%;
+}
+
+.headerprincipal {
+    background-color: #EAC926;
+    padding: 5px;
+    width: 100vw;
+
+}
+
+.selectores {
+    display: none;
+}
+
+
+
+p {
     font-size: 12px;
 }
-li a{
+
+li a {
     font-size: 12px;
     text-decoration: none;
 }
 
-.precios{
-font-size: 18px;
+li {
+    text-decoration: none;
 }
 
-.descuentos{
+.precios {
+    font-size: 22px;
+
+}
+
+.descuentos {
+    font-size: 16px;
+    color: rgb(4, 157, 4);
+}
+
+.descripcion {
     font-size: 16px;
 }
 
-.descripcion{
-    font-size: 16px;
-}
-
-.burger-menu{
+.burger-menu {
     color: white;
     background-color: blue;
-  margin: 0 auto;
- margin-left: 49%;
- width: 20px;
-  border-radius: 5px;
-  
-    
+    margin: auto;
+    width: 25px;
+    border-radius: 5px;
+
+
 }
+.fas{
+    width: 25px;
+    margin: auto;
+}
+
 
 #compraencuotas{
-    font-size: 12px;
+    width: 100%;
+}
+.busqueda{
+    width: 50%;
 }
 
-article{
-    display: inline-block;
-    
-}
-article:hover{
-    box-shadow: 0px 5px 10px  black ;
-    border-radius: 10px;
-    zoom: 1.2;
+article {
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+
 }
 
-section{
+
+
+section {
     margin-top: 30px;
     margin-bottom: 50px;
-    
+
 }
 
 
@@ -79,27 +108,90 @@ section{
 
 
 
-img.logo{
-    width: 150px;
+img.logo {
+    width: 50%;
 }
-div.barraPrincipal{
+
+div.barraPrincipal {
     display: inline;
     text-align: justify;
-} 
-
-.detalles{
-margin-top: 20px;
-text-align: center;
 }
 
-.copi{
+.detalles {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copi {
     margin-top: 30px;
     text-align: center;
 }
-.detalles i{
+
+.detalles i {
     font-size: 2em;
 }
-img{
+
+img {
     width: 200px;
 }
 
+.baner {
+    display: none;
+}
+
+.descuentos{
+    display: none;
+}
+.descripcion{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 480px) {
+    .baner {
+        display: block;
+
+        width: 100%;
+
+    }
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        border-radius: 10px;
+        
+    } 
+   
+}
+@media (min-width: 769px){
+     .descripcion{
+        display: block;
+     }
+     .descuentos{
+        display: block;
+     }
+     .selectores{
+        display: block;
+        width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+     }
+     .burger-menu{
+        display: none;
+     }
+     article{
+        width: 20%;
+        display: inline-block;
+     }
+}
