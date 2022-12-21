@@ -11,7 +11,8 @@ console.log('prendio')
 
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, "./views/home.html"))
+    res.sendFile(path.join(__dirname, "./views/index.html"))
 })
-
-
+app.get('/register', function(req, res){
+    res.sendFile(path.join(__dirname, "./views/register.html"))
+})
