@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "name": "entregable17",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/El-Farolito/entregable17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/El-Farolito/entregable17/issues"
+  },
+  "homepage": "https://github.com/El-Farolito/entregable17#readme",
+  "description": ""
 }
