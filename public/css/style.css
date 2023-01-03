@@ -217,6 +217,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 50px ;
+    margin-top: -50px;
 }
 
 .div-form {
@@ -244,6 +245,7 @@ footer{
 /* ------------formulario register------------ */
 
 /* form login */
+
 
 .div-form-login {
     margin: 15px 0;
