@@ -178,7 +178,7 @@ main {
 .articulodeoferta {
     text-align: center;
     border: 1px solid black;
-    margin: 10px;
+    
     box-shadow: 0 0 5px black;
 }
 
@@ -308,6 +308,11 @@ footer{
 
         width: 50%;
         text-align: center;
+        box-shadow: none;
+        width: 40%;
+        margin: auto;
+        margin: 10px auto;
+        border-radius: 5px;
 
     }
 
