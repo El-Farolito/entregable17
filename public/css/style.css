@@ -400,6 +400,10 @@ footer{
     }
 
     /*----------main-------- */
+
+    .main-h3{
+        margin-top: 50px;
+    }
     .precioydescuento {
         display: flex;
         justify-content: space-between;
@@ -430,13 +434,15 @@ footer{
     }
 
     .articulodeoferta:hover {
-        box-shadow: 0px 3px 10px black;
+        box-shadow: 0px 0px 5px black;
     }
 
     .articulodeoferta {
 
         width: 23%;
         text-align: center;
+        box-shadow: 0 0 3px black;
+        border-radius: 5px;
     }
 
     .fa-truck {
