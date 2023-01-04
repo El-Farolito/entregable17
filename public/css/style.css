@@ -342,9 +342,10 @@ footer{
         flex-wrap: wrap;
 
     }
+    
 
     .copy-header {
-        width: 100%;
+        width: 30%;
     }
 
     .hamburguer-button {
@@ -367,7 +368,7 @@ footer{
     .imgybusqueda {
         display: flex;
         justify-content: space-evenly;
-        width: 100%;
+        width: 70%;
     }
 
     .imgybusqueda .busqueda {
