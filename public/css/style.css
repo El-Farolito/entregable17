@@ -177,6 +177,9 @@ main {
 
 .articulodeoferta {
     text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 0 0 5px black;
 }
 
 .fa-truck {
@@ -185,6 +188,7 @@ main {
 
 .articulodeoferta .fa-truck{
     margin-left: 80%;
+    
 }
 
 /* ------------main------------ */
