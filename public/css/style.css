@@ -288,7 +288,8 @@ footer{
 
     /*----------header-------- */
     .imgybusqueda {
-        height: 15vh;
+        height: 8vh;
+        align-items: center;
     }
 
     /*----------header-------- */
