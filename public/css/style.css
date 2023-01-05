@@ -149,6 +149,7 @@ main {
 
 .imagenesProductos {
     width: 80%;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .descripcion {
@@ -183,6 +184,17 @@ main {
 
 .fa-truck {
     color: rgba(0, 128, 0, 0.693);
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 6px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   left: -15px;
+   top: -15px;
+   background-color: white;
+    
 }
 
 .articulodeoferta .fa-truck{
